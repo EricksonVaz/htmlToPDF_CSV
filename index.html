@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML To PDF</title>
+    <style>
+        h1{
+            color: red;
+        }
+        p{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <button type="button" class="btn-to-pdf">download pdf</button>
+    <div id="contentToPrint">
+        <h1>Converter HTML Para PDF</h1>
+        <p>Esta seção será convertida em pdf</p>
+    </div>
+
+    <button type="button" class="btn-to-csv">download .csv</button>
+    <table>
+        <tr>
+            <th> Name </th>
+            <th> Profession </th>
+            <th> Age </th>
+            <th> Hobby </th>
+        </tr>
+        <tr>
+            <td> Cristiano </td>
+            <td> Hacker </td>
+            <td> 24 </td>
+            <td> Travelling, Sky-diving </td>
+        </tr>
+        <tr>
+            <td> Jenifer </td>
+            <td> Photographer </td>
+            <td> 22 </td>
+            <td> Cooking </td>
+        </tr>
+        <tr>
+            <td> Simon </td>
+            <td> Travelling-guide </td>
+            <td> 35 </td>
+            <td> Dancing, Gardening </td>
+        </tr>
+        <tr>
+            <td> Cristiano Ronaldo </td>
+            <td> Footballer </td>
+            <td> 29 </td>
+            <td> Singing </td>
+        </tr>
+    </table>
+    <script src="/js/html2canvas.min.js"></script>
+    <script src="/js/jspdf.umd.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
